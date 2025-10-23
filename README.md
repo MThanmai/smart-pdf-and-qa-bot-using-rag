@@ -1,7 +1,10 @@
 MindVault - Smart PDF Q&A Bot
+
 MindVault is an intelligent document chat system that lets you ask questions about your documents using natural language. Built with Retrieval-Augmented Generation (RAG) technology, it combines semantic search with AI to provide accurate, context-aware answers.
+
 🎯 What It Does
 Upload your documents (PDF, Word, TXT, Markdown) and chat with them naturally. MindVault finds relevant information and generates accurate answers with source citations.
+
 🛠️ Technologies Used
 
 Frontend: Streamlit
