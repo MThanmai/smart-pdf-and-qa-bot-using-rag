@@ -1,0 +1,27 @@
+# MindVault Dependencies
+# Tested on Python 3.9, 3.10, 3.11
+
+# Core RAG Components
+streamlit==1.31.0
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# LLM Integration
+groq==0.4.2                # For Groq API (free tier) - REQUIRED for Render
+ollama==0.1.6              # For local Ollama only
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+python-magic-bin==0.4.14; platform_system == "Windows"  # For file type detection
+
+# Utilities
+python-dotenv==1.0.0
+numpy==1.24.3
+pandas==2.0.3
+tqdm==4.66.1
+
+# Development (optional but recommended)
+pytest==7.4.3
+black==23.12.1
+flake8==7.0.0
